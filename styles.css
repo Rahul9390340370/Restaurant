@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .menu-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  aside {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    width: 300px;
+  }
+  
+  #order-items li {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  #total-price {
+    font-weight: bold;
+  }
